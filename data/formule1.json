@@ -1,0 +1,66 @@
+{
+  "intents": [
+    {
+      "tag": "driver_standings",
+      "patterns": [
+        "Pilotes de la grille de /year/ ?",
+        "Pilotes de la saison /year/",
+        "Quels sont les pilotes de la saison /year/ ?",
+        "Liste des pilotes de /year/",
+        "Quels sont les pilotes de la grille de /year/ ?",
+        "Qui sont les pilotes en lice pour la saison /year/ ?",
+        "Quels sont les noms des pilotes pour la saison /year/ ?",
+        "Pouvez-vous me donner la liste des pilotes pour la saison /year/ ?"
+      ],
+      "responses": [
+        "Voici les pilotes de la grille en /year/ : ...",
+        "Voici les pilotes de la saison de /year/ : ...",
+        "Les pilotes qui courrent pour la saison /year/ sont : ...",
+        "La liste des pilotes pour la saison /year/ est : ...",
+        "Les pilotes de la grille de /year/ sont : ...",
+        "Voici la liste des pilotes pour la saison /year/ : ...",
+        "Les pilotes confirmés pour la saison /year/ sont : ...",
+        "Voici les noms des pilotes pour la saison /year/ : ..."
+      ]
+    },
+    {
+      "tag": "team_standings",
+      "patterns": [
+        "Classement des équipes",
+        "Qui est en tête du championnat des équipes ?",
+        "Quel est le classement des équipes ?"
+      ],
+      "responses": [
+        "Voici le classement des équipes en  /year/ : ...",
+        "L'équipe en tête du championnat en  /year/ : ...",
+        "Le classement des équipes en  /year/ est le suivant : ..."
+      ]
+    },
+    {
+      "tag": "next_race",
+      "patterns": [
+        "Quand est la prochaine course ?",
+        "Quand a lieu la prochaine course ?",
+        "Où se déroule la prochaine course ?"
+      ],
+      "responses": [
+        "La prochaine course aura lieu le ... à ...",
+        "La prochaine course se déroule le ... à ...",
+        "La prochaine course est prévue pour le ... à ..."
+      ]
+    },
+    {
+      "tag": "race_results",
+      "patterns": [
+        "Résultats de la dernière course",
+        "Qui a gagné la dernière course ?",
+        "Quel est le résultat de la dernière course ?"
+      ],
+      "responses": [
+        "Le résultat de la dernière course est le suivant : ...",
+        "Le pilote gagnant de la dernière course est ...",
+        "Voici les résultats de la dernière course : ..."
+      ]
+    }
+  ]
+}

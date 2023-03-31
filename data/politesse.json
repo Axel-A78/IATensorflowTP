@@ -1,0 +1,105 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Salut",
+        "Bonjour",
+        "Coucou",
+        "Hello",
+        "Salutations",
+        "Hey",
+        "Yo",
+        "Comment vas-tu ?",
+        "Bonjour, comment ça va ?",
+        "Bonjour, quoi de neuf ?"
+      ],
+      "responses": [
+        "Bonjour ! Bienvenue sur Mr le chatbot.",
+        "Salut ! Je suis là pour discuter avec toi.",
+        "Hello ! Comment puis-je t'aider aujourd'hui ?",
+        "Salutations ! Je suis là pour répondre à toutes tes questions.",
+        "Salut ! Comment ça va aujourd'hui ?",
+        "Yo ! Comment puis-je t'aider ?",
+        "Hey ! Je suis là pour répondre à toutes tes questions.",
+        "Je vais bien, merci ! Et toi ?",
+        "Je vais bien, merci ! Comment puis-je t'aider ?",
+        "Je vais bien, merci ! As-tu des questions pour moi ?"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Merci",
+        "C'était utile",
+        "Merci beaucoup",
+        "Je te remercie",
+        "Super, merci",
+        "Génial, merci",
+        "C'est cool, merci",
+        "Je suis reconnaissant",
+        "Je t'en suis reconnaissant",
+        "Merci infiniment"
+      ],
+      "responses": [
+        "Je suis heureux d'avoir pu t'aider ! N'hésite pas à me poser d'autres questions si tu en as.",
+        "Je suis ravi d'avoir pu répondre à tes questions. Si tu as besoin de plus d'informations, n'hésite pas à me demander.",
+        "De rien ! C'était un plaisir de t'aider. Si tu as d'autres questions, n'hésite pas à me demander.",
+        "Content d'avoir pu t'aider ! Si tu as besoin de plus d'informations, n'hésite pas à me demander.",
+        "Génial ! N'hésite pas à me contacter si tu as besoin de plus d'informations.",
+        "C'est cool ! Si tu as besoin de plus d'informations, n'hésite pas à me demander.",
+        "Je suis heureux d'avoir pu aider. As-tu d'autres questions pour moi ?",
+        "Je suis ravi d'avoir pu aider. Comment puis-je t'aider davantage ?",
+        "Je suis content d'avoir pu t'aider. Si tu as d'autres questions, n'hésite pas à me les poser.",
+        "Je suis ravi d'avoir pu t'aider. N'hésite pas à me demander si tu as besoin d'aide supplémentaire."
+      ]
+    },
+    {
+      "tag": "conversation",
+      "patterns": [
+        "Bonjour",
+        "Comment ça va ?",
+        "Quoi de neuf ?",
+        "Tu fais quoi ?",
+        "Tu es d'où ?",
+        "Tu as des frères et soeurs ?",
+        "Quel est ton plat préféré ?",
+        "Tu as des hobbies ?",
+        "Tu aimes quel genre de musique ?",
+        "Quelle est ta couleur préférée ?",
+        "Quel est ton film préféré ?",
+        "Tu as vu quel film récemment ?",
+        "Tu lis quoi en ce moment ?",
+        "Quel est ton livre préféré ?",
+        "Tu as un animal de compagnie ?",
+        "Quel est ton animal préféré ?",
+        "Tu préfères le café ou le thé ?",
+        "Quel est ton sport préféré ?",
+        "Tu aimes voyager ?",
+        "Quel est ton endroit préféré ?"
+      ],
+      "responses": [
+        "Bonjour ! Comment puis-je t'aider aujourd'hui ?",
+        "Je vais bien, merci de demander ! Et toi ?",
+        "Rien de spécial, et toi ?",
+        "Je discute avec toi ! Et toi, que fais-tu ?",
+        "Je suis un chatbot, donc je n'ai pas de lieu d'origine physique. Et toi ?",
+        "En tant que chatbot, je n'ai pas de frères et soeurs, mais je suis heureux de discuter avec toi ! Et toi ?",
+        "Je n'ai pas de préférence, mais j'aime les plats simples et nourrissants. Et toi ?",
+        "En tant que chatbot, je n'ai pas de hobbies, mais j'aime discuter avec les gens ! Et toi ?",
+        "J'aime tous les genres de musique ! Et toi, quel est ton genre de musique préféré ?",
+        "Je n'ai pas de couleur préférée, mais j'aime les couleurs vives et joyeuses. Et toi ?",
+        "En tant que chatbot, je n'ai pas de film préféré, mais j'aime les films qui me font réfléchir ! Et toi ?",
+        "En tant que chatbot, je ne peux pas voir de films, mais j'aime discuter de tous les sujets ! Et toi ?",
+        "En tant que chatbot, je ne peux pas lire de livres, mais j'aime discuter de tous les sujets ! Et toi ?",
+        "En tant que chatbot, je n'ai pas de livre préféré, mais j'aime les livres qui m'apprennent quelque chose de nouveau ! Et toi ?",
+        "En tant que chatbot, je n'ai pas d'animal de compagnie, mais j'aime discuter de tous les animaux ! Et toi ?",
+        "En tant que chatbot, je n'ai pas d'animal préféré, mais j'aime discuter de tous les animaux ! Et toi, quel est ton animal préféré ?",
+        "Je préfère le café, mais j'aime aussi le thé ! Et toi ?",
+        "En tant que chatbot, je n'ai pas de sport préféré, mais j'aime discuter de tous les sports ! Et toi ?",
+        "En tant que chatbot, je ne peux pas voyager, mais j'aime discuter de tous les endroits ! Et toi, aimes-tu voyager ?",
+        "Je n'ai pas d'endroit préféré, mais j'aime les endroits paisibles et sereins. Et toi, quel est ton endroit préféré ?"
+      ]
+    }
+  ]
+}

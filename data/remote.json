@@ -1,0 +1,42 @@
+{
+  "intents": [
+    {
+      "tag": "google",
+      "patterns": ["Googlelise moi, Google"],
+      "responses": ["OK Google,"]
+    },
+    {
+      "tag": "ERROR",
+      "patterns": ["ERROR"],
+      "responses": [
+        "Si 'ERROR' est écrit, c'est que le mode vocal n'a surement pas compris vos propos"
+      ]
+    },
+    {
+      "tag": "meteo",
+      "patterns": [
+        "Quand est la prochaine course ?",
+        "Quand a lieu la prochaine course ?",
+        "Où se déroule la prochaine course ?"
+      ],
+      "responses": [
+        "La prochaine course aura lieu le ... à ...",
+        "La prochaine course se déroule le ... à ...",
+        "La prochaine course est prévue pour le ... à ..."
+      ]
+    },
+    {
+      "tag": "race_results",
+      "patterns": [
+        "Résultats de la dernière course",
+        "Qui a gagné la dernière course ?",
+        "Quel est le résultat de la dernière course ?"
+      ],
+      "responses": [
+        "Le résultat de la dernière course est le suivant : ...",
+        "Le pilote gagnant de la dernière course est ...",
+        "Voici les résultats de la dernière course : ..."
+      ]
+    }
+  ]
+}
